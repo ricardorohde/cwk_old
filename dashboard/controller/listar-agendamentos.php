@@ -2,7 +2,7 @@
 <?php
 include('include/config.php');
 
-    $sql = 'SELECT * FROM events WHERE id_usuario="'.$_SESSION[id].'" ORDER BY id DESC';
+    $sql = 'SELECT * FROM events WHERE id_usuario="'.$_SESSION["id"].'" ORDER BY id DESC';
 
     $result = $conn->query($sql);
 
