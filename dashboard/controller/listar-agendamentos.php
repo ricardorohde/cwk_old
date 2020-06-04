@@ -31,7 +31,7 @@ include('include/config.php');
 			
 			echo '<tr>';
             echo '<td>'.$row['sala'].'</td>';
-            echo '<td>'.$_SESSION[nome].'</td>';
+            echo '<td>'.$_SESSION["nome"].'</td>';
             echo '<td>'.$data_br_s.'</td>';
             echo '<td>'.$data_br_e.'</td>';
 			echo '<td>'.$row['status'].'</td>';
