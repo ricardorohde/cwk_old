@@ -1,0 +1,20 @@
+/*RESET*/
+*{margin:0; padding:0;}
+body{background:#CCC; margin:100px;}
+
+/*FORMULARIO*/
+#formulario_cadastro form{width:300px; display:block; margin:0 auto; background:#FFF; border:2px solid #666;}
+#formulario_cadastro fieldset{border:0; padding:0 15px 10px 15px;}
+#formulario_cadastro legend{font:18px Tahoma, Geneva, sans-serif; color:#069; font-weight:bold; padding:10px 0;}
+#formulario_cadastro label{display:block; padding:3px 0;}
+#formulario_cadastro h5{display:block; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#069; font-weight:bold;}
+#formulario_cadastro input{padding:3px; width:260px; border:1px solid #069; font:16px Tahoma, Geneva, sans-serif; color:#666; font-weight:bold;}
+#formulario_cadastro input:hover{border:1px solid #900;}
+#formulario_cadastro .btn{width:120px; display:block; margin:10px auto; cursor:pointer; background:#069; color:#FFF;}
+#formulario_cadastro .btn:hover{background:#066;}
+
+/*CONTENT - Alteração feita em OFF*/
+#content{width:600px; height:350px; display:block; margin:0 auto; background:#FFF; border:2px solid #666;}
+#content p{font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; font-weight:bold; padding:5px;}
+#content a{font:16px Georgia, "Times New Roman", Times, serif; font-weight:bold; color:#900; padding:5px;}
+#content a:hover{color:#069; text-decoration:underline;}

@@ -1,0 +1,191 @@
+*{
+	margin:0;
+	padding-top: 0;
+	padding-right: 10;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+body{
+	background-color:#F5F5F5;
+}
+#geral{
+	width:1000px;
+	margin: 0 auto;
+}
+#topo{
+	width:100%;
+	height:15px;
+	background:#3c3734;
+}
+#menu{
+	width:237px;
+	float:left;
+	background:url(imagens/bg_gerenciador.png) repeat-y;
+	padding-bottom:50px;
+}
+#menu img{
+	width:210px;
+	height:50px;
+	padding-top:10px;
+}
+#menu p{
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#FFF;
+}
+#menu a{
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+#menu h1{
+	width:194px;
+	height:19px;
+	float:right;
+	background:url(imagens/bg_itens.png) no-repeat;
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	padding:5px;
+	font-weight:bold;
+}
+#itens{
+	margin-top:45px;
+}
+#itens ul{
+	list-style:none;
+}
+#itens ul li{
+	width:188px;
+	background:#FFF;
+	float:right;
+	padding:5px;
+	margin-right:2px;
+	border-top:1px solid #3c3734;
+	border-bottom:1px solid #3c3734;
+}
+#itens ul li a{
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#000;
+	font-weight:bold;
+}
+
+#menu a:hover{
+	text-decoration:underline;
+}
+#baixo_menu{
+	background:url(imagens/baixo_menu.png) no-repeat;
+	width:239px;
+	height:18px;
+}
+#conteudo{
+	margin-top:5px;
+	width:757px;
+	float:right;
+	background:#FFF;
+	border:1px solid #333;
+}
+#conteudo h1{
+	font:16px Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	font-weight:bold;
+}
+#conteudo p{
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#333;
+	display:block;
+	font-weight:bold;
+}
+#conteudo input{
+	width:600px;
+	padding:5px;
+}
+#conteudo select{
+	width:600px;
+	padding:5px;
+}
+
+#conteudo .btn{
+	width:150px;
+	background:#333;
+	color:#FFF;
+	font:14px Tahoma, Geneva, sans-serif;
+	border:0px;
+	cursor:pointer;
+	display:block;
+	padding:5px;
+}
+#conteudo .texto{
+	background:#333;
+	padding:5px;
+}
+.ok{
+	padding:5px;
+	background:#D5FFDF;
+	border:1px solid #0F0;
+	font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#333;
+}
+.no{
+	padding:5px;
+	background:#FFDFDF;
+	border:1px solid #F00;
+	font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#333;
+}
+.tabela{
+	background:#333;
+	padding:6px;
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#FFF;
+}
+.edit{
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#06C;
+	font-weight:bold;
+	text-decoration:none;
+}
+.excluir{
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#900;
+	font-weight:bold;
+	text-decoration:none;
+}
+.bg{
+	background:#F2F2F2;
+	padding:5px;
+	font:14px Tahoma, Geneva, sans-serif;
+}
+#cats{
+	width:620px;
+	margin: 0 auto;
+}
+#cats input{
+	width:18px;
+	margin-top:0px;
+	float:left;
+}
+#cats span{
+	font:16px Tahoma, Geneva, sans-serif;
+	color:#333;
+	float:left;
+	padding-left:3px;
+	padding-right:5px;
+
+}
+
+#formulario_cadastro form{width:300px; display:block; margin:0 auto; background:#FFF; border:2px solid #666;}
+#formulario_cadastro fieldset{border:0; padding:0 15px 10px 15px;}
+#formulario_cadastro legend{font:18px Tahoma, Geneva, sans-serif; color:#069; font-weight:bold; padding:10px 0;}
+#formulario_cadastro label{display:block; padding:3px 0;}
+#formulario_cadastro h5{display:block; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#069; font-weight:bold;}
+#formulario_cadastro input{padding:3px; width:260px; border:1px solid #069; font:16px Tahoma, Geneva, sans-serif; color:#666; font-weight:bold;}
+#formulario_cadastro input:hover{border:1px solid #900;}
+#formulario_cadastro .btn{width:120px; display:block; margin:10px auto; cursor:pointer; background:#069; color:#FFF;}
+#formulario_cadastro .btn:hover{background:#066;}
+
+#content{width:600px; height:350px; display:block; margin:0 auto; background:#FFF; border:2px solid #666;}
+#content p{font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; font-weight:bold; padding:5px;}
+#content a{font:16px Georgia, "Times New Roman", Times, serif; font-weight:bold; color:#900; padding:5px;}
+#content a:hover{color:#069; text-decoration:underline;}
