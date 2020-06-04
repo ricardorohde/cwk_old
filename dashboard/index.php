@@ -258,7 +258,7 @@ while($res = mysqli_fetch_array($sel)){
 					<li>
 		                <a data-toggle="collapse" href="#comp">
 		                    <i class="material-icons">apps</i>
-		                    <p>Sala Aten. Compart.
+		                    <p>Sala de Atendimento
 		                       <b class="caret"></b>
 		                    </p>
 		                </a>
@@ -324,9 +324,9 @@ while($res = mysqli_fetch_array($sel)){
                     </li>
 					<?php
 						}
-						if($multiuso){
+						// if($multiuso){
 					?>
-                    <li>
+<!--                     <li>
                         <a data-toggle="collapse" href="#multiuso">
                             <i class="material-icons">widgets</i>
                             <p>Multiuso 
@@ -341,12 +341,12 @@ while($res = mysqli_fetch_array($sel)){
                                 </li>
                             </ul>
                         </div>
-                    </li>
+                    </li> -->
 					<?php
-						}
-						if($mastercoach){
+						// }
+						// if($mastercoach){
 					?>
-                    <li>
+<!--                     <li>
                         <a data-toggle="collapse" href="#mastercoach">
                             <i class="material-icons">widgets</i>
                             <p>Master Coach 
@@ -361,9 +361,9 @@ while($res = mysqli_fetch_array($sel)){
                                 </li>
                             </ul>
                         </div>
-                    </li>
+                    </li> -->
 					<?php
-						}
+						// }
 					?>
 		        </ul>
 		    </div>
@@ -454,7 +454,7 @@ while($res = mysqli_fetch_array($sel)){
 														echo '<iframe src="agenda_tpc/index.php" class="col-md-11" style="height:600px" frameborder="0"></iframe>';
 														break;
 													case 'agenda_comp':
-														echo '<iframe src="agenda_tpc/sala_atend_comp.php" class="col-md-11" style="height:600px" frameborder="0"></iframe>';
+														echo '<iframe src="agenda_tpc/sala_atendimento.php" class="col-md-11" style="height:600px" frameborder="0"></iframe>';
 														break;
 													case 'agenda_reuniao':
 														echo '<iframe src="agenda_tpc/reuniao.php" class="col-md-11" style="height:600px" frameborder="0"></iframe>';

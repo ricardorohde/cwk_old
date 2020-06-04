@@ -13,7 +13,7 @@ if (!empty($id)) {
                 header('Location: index.php');
                 break;
             case 'atend_comp':
-                header('Location: sala_atend_comp.php');
+                header('Location: sala_atendimento.php');
                 break;
             case 'auditorio':
                 header('Location: auditorio.php');
@@ -36,7 +36,7 @@ if (!empty($id)) {
                 header('Location: index.php');
                 break;
             case 'atend_comp':
-                header('Location: sala_atend_comp.php');
+                header('Location: sala_atendimento.php');
                 break;
             case 'auditorio':
                 header('Location: auditorio.php');
@@ -60,7 +60,7 @@ if (!empty($id)) {
                 header('Location: index.php');
                 break;
             case 'atend_comp':
-                header('Location: sala_atend_comp.php');
+                header('Location: sala_atendimento.php');
                 break;
             case 'auditorio':
                 header('Location: auditorio.php');
