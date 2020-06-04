@@ -210,7 +210,7 @@ while($res = mysqli_fetch_array($sel)){
 					<li>
 		                <a data-toggle="collapse" href="#tpc">
 		                    <i class="material-icons">apps</i>
-		                    <p>Sala de Atend. TPC
+		                    <p>Sala de Atendimento
 		                       <b class="caret"></b>
 		                    </p>
 		                </a>
