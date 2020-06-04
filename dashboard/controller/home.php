@@ -26,7 +26,15 @@
 </ul>
 <strong>REGRAS DE AGENDAMENTOS</strong>
 <ul>
- 	<li>Para acessar o Histórico de agendamentos vá até o menu lateral, clique em Histórico do serviço que deseja visualizar os agendamentos.</li>
+ 	<li>Os agendamento pode ser realizado a qualquer momento, o sistema estará disponível 24h/dia.</li>
+ 	<li>Não é permitido o 2 agendamentos no mesmo horário. Nesse caso quem registrou primeiro terá a preferência.</li>
+ 	<li>O agendamento estará disponível para exclusão até 2h de antecedência ao horário agendado.</li>
+ 	<li>O cancelamento sem custo da reserva deve ser realizado com antecedência de no mínimo 2 horas do horário Pelo contrário, será cobrado o valor integral da reserva ou descontado do pacote de horas.</li>
+ 	<li>Atenção ao horário agendado. O usuário pode ser interrompido no meio da reunião por ter outra reunião agendada.</li>
+ 	<li>Após o uso, o usuário deve manter a sala limpa, organizada e livre de comida. Refeições somente na copa.</li>
+ 	<li>As áreas de convivência do escritório não devem ser utilizadas para reuniões profissionais</li>
+ 	<li>Em respeito aos demais usuários do espaço, o usuário deve atender seus clientes somente nas salas de reuniões reservadas. Se necessitar de alteração, consultar com antecedência.</li>
+ 	<li>O usuário pode trazer placas, quadros e livros, ao finalizar a atendimento não poderá deixar pertences pessoais na sala.</li>
 </ul>
         </div>
     </div>
